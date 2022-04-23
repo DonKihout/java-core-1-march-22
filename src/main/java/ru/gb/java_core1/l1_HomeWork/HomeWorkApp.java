@@ -15,8 +15,8 @@ public class HomeWorkApp {
     }
 
     public static void checkSumSign() {
-        int a = 10;
-        int b = -4;
+        int a = -50;
+        int b = (int)(Math.random()* 100);
         int result = a + b;
         if (result >= 0){
             System.out.println("Сумма положительная");
@@ -26,7 +26,7 @@ public class HomeWorkApp {
     }
 
     public static void printColor(){
-        int value = (int)Math.random();
+        int value = (int)(Math.random()* 1000);
         if (value <= 0){
             System.out.println("Красный");
         } else if(value >0 && value <= 100){
